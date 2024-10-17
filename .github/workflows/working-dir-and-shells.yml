@@ -6,7 +6,7 @@ defaults:
         #working-directory: /de/ed
 
 jobs:
-    display-wd-ifo:
+    display-wd-info:
         runs-on: ubuntu-latest
         steps:
             - name: Display Working Directory & List Files
@@ -19,7 +19,7 @@ jobs:
             - name: Change Working Dir
               working-directory: /home/runner
               run: pwd
-    display-wd-ifo-windows:
+    display-wd-info-windows:
         runs-on: windows-latest
         defaults:
             run:
