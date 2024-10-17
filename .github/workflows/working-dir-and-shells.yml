@@ -10,7 +10,7 @@ jobs:
                 pwd
                 ls -a
                 echo $GITHUB_SHA
-                echo $GITHUB_REPOSIRORY
+                echo $GITHUB_REPOSITORY
                 echo $GITHUB_WORKSPACE
     display-wd-ifo-windows:
         runs-on: windows-latest
