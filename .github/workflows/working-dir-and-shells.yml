@@ -1,5 +1,8 @@
 name: working Dirs & Shells
 on: [push]
+defaults:
+    run:
+        shell: bash
 
 jobs:
     display-wd-ifo:
