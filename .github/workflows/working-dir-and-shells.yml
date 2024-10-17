@@ -29,9 +29,9 @@ jobs:
               run: |
                 Get-Location
                 dir
-                echo $env:GITHUB_SHA
-                echo $env:$GITHUB_REPOSIRORY
-                echo $env:$GITHUB_WORKSPACE
+                echo $GITHUB_SHA
+                echo $GITHUB_REPOSIRORY
+                echo $GITHUB_WORKSPACE
             - name: Python Shell
               shell: python
               run: |
