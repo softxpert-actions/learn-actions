@@ -17,6 +17,9 @@ jobs:
                 echo $GITHUB_WORKSPACE
     display-wd-ifo-windows:
         runs-on: windows-latest
+        defaults:
+            run:
+                shell: pwsh
         steps:
             - name: Display Working Directory & List Files
               run: |
