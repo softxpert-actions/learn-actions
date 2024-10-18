@@ -1,4 +1,4 @@
-name: Working Dirs & Shells
+name: Checkout
 on: [push]
 
 jobs:
